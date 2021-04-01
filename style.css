@@ -143,7 +143,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-navy);
+    background: rgba(10, 25, 47, 0.95);
     box-shadow: 0 10px 30px -10px var(--navy-shadow);
     z-index: 10;
 }
@@ -151,7 +151,7 @@ img {
 .nav h1 {
     margin: auto 0;
     font-size: 3rem;
-    margin-left: 5rem;
+    padding-left: 3rem;
 }
 
 .nav h1 > a {
@@ -170,6 +170,10 @@ img {
 
     .nav-list {
         margin: 0 1rem;
+    }
+
+    .nav h1 {
+        padding-left: 1rem;
     }
 }
 
@@ -214,22 +218,22 @@ img {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 120vh;
-    margin-top: 4rem;
-    padding: 5rem 5rem;
-    
+    padding: 10rem 2rem;
+
 }
 
 .about-header{
     max-width: 640px;
     width: 100%;
-    margin: 0 auto 6rem auto;
+    margin: 0 auto 6rem auto; 
     border-bottom: 0.2rem solid var(--main-white);
 }
 
+/*
 .about-section h2 {
-    margin-bottom: 5rem;
+    padding: 0;
 }
+*/
 
 .about-section p {
     text-align: left;
@@ -267,9 +271,17 @@ img {
     box-shadow: 0 10px 20px 10px var(--navy-shadow);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 55em) {
+    .about-section {
+        padding: 9rem 1rem;
+    }
+    
     .about-content {
         align-items: center;
+    }
+
+    .about-content ul {
+        padding: 0 4rem;
     }
     
     .about-section .about-content {
@@ -277,6 +289,10 @@ img {
         flex-direction: column;
         justify-content: center;
         align-self: center;
+    }
+
+    .about-section p {
+        margin: 0 2rem;
     }
 
     .about-section img {
@@ -293,8 +309,10 @@ img {
     padding: 10rem 2rem;
 }
 
+
 .projects-section-header {
     max-width: 640px;
+    width: 100%;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
 }
@@ -302,6 +320,10 @@ img {
 @media (max-width: 28.75em) {
     .projects-section-header {
         font-size: 4rem;
+    }
+
+    .projects-section-header {
+        padding-top: 3rem;
     }
 }
 
