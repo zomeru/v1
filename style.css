@@ -435,3 +435,9 @@ footer p {
 footer p:hover {
     color: var(--main-green);
 }
+
+@media (max-width: 50em) {
+    footer p {
+        font-size: 1.6rem;
+    }
+}
