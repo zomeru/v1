@@ -1,3 +1,0 @@
-Sitemap: https://zomergregorio.live/sitemap.xml
-User-agent:*
-Disallow:
